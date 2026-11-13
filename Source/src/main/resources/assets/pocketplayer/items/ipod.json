@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "pocketplayer:item/ipod",
+    "model": {
+      "type": "pocketplayer:ipod"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "pocketplayer",
+  "version": "1.0.1+26.3",
+  "name": "Pocket Player \u2014 Apple Music iPod",
+  "description": "The original Pocket Player model as a held item, with its native LCD, wheel and local Mac Music integration.",
+  "authors": [
+    "Local customization for Calvin"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "local.pocketplayer.PocketPlayer"
+    ],
+    "client": [
+      "local.pocketplayer.PocketClient"
+    ]
+  },
+  "accessWidener": "pocketplayer.classtweaker",
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
